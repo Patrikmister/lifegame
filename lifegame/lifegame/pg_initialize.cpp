@@ -13,12 +13,8 @@ void pg_initialize(point playground[][_HEIGHT_]) //Fills the playground randomly
 			unsigned int num = dis(gen);
 
 			if (num % 2 == 0) 
-			{
 				playground[i][j].alive = true;
-			}
 			else 
-			{
 				playground[i][j].alive = false;
-			}
 		}
 }
