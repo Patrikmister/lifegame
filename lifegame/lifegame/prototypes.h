@@ -13,3 +13,6 @@ struct point  //Contains the current condition of the point
 
 void playground_initialize(point); //Initializes the playground
 int amount_of_alive(point); //Counts the amount of alive points
+void neighbours_coordinates(int neighbours[][2], int x, int y); //Coordinates of neighbours
+int amount_of_alive_neighbours(point, int x, int y); //Counts the alive neighbours (in the square, 8 points)
+void next_playground(point new_playground, point previous_playground); //Changes the playground

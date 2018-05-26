@@ -149,7 +149,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="amount_of_alive.cpp" />
+    <ClCompile Include="amount_of_alive_neighbours.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="neighbours_coordinates.cpp" />
     <ClCompile Include="pg_initialize.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
