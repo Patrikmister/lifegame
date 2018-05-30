@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "prototypes.h"
 
-int amount_of_alive(point playground[][_HEIGHT_])
+int amount_of_alive(point playground[_WIDTH_][_HEIGHT_])
 {
 	int count = 0;
 	

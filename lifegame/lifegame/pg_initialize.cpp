@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "prototypes.h"
 
-void pg_initialize(point playground[][_HEIGHT_]) //Fills the playground randomly
+void pg_initialize(point playground[_WIDTH_][_HEIGHT_]) //Fills the playground randomly
 {
 	std::random_device rd;
 	std::mt19937 gen(rd());
