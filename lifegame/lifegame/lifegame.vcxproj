@@ -150,10 +150,13 @@
   <ItemGroup>
     <ClCompile Include="amount_of_alive.cpp" />
     <ClCompile Include="amount_of_alive_neighbours.cpp" />
+    <ClCompile Include="compare.cpp" />
+    <ClCompile Include="copy_playground.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="neighbours_coordinates.cpp" />
     <ClCompile Include="next_playground.cpp" />
     <ClCompile Include="pg_initialize.cpp" />
+    <ClCompile Include="print_playground.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

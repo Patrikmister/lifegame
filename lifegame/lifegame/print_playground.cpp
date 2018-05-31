@@ -1,15 +1,20 @@
 #include "stdafx.h"
 #include "prototypes.h"
 
-int amount_of_alive(point playground[_WIDTH_][_HEIGHT_])
+void print_playground(point playground[_WIDTH_][_HEIGHT_])
 {
-	int count = 0;
-	
+	system("cls");
+
 	for (int i = 0; i < _WIDTH_; i++)
+	{
 		for (int j = 0; j < _HEIGHT_; j++)
 		{
 			if (playground[i][j].alive)
-				count++;
+				cout << "*";
+			else
+				cout << " ";
+			cout << " ";
 		}
-	return count;
+		cout << "\n";
+	}
 }
