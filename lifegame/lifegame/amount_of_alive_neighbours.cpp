@@ -1,9 +1,10 @@
 #include "stdafx.h"
 #include "prototypes.h"
 
-int amount_of_alive_neighbours(point playground[_HEIGHT_][_WIDTH_], int x, int y)
+int amount_of_alive_neighbours(point playground[_WIDTH_][_HEIGHT_], int x, int y)
 {
 	int count = 0;
+	/*
 	int neighbours[8][2];
 	int _x, _y;
 
@@ -19,9 +20,17 @@ int amount_of_alive_neighbours(point playground[_HEIGHT_][_WIDTH_], int x, int y
 		if (_x >= _WIDTH_ || _y >= _HEIGHT_)
 			continue;
 
-		if (playground[_x][_y].alive)
+		if ((playground)[_x][_y].alive)
 			count++;
-	}
+	}*/
 	
 	return count;
 }
+
+
+
+
+
+
+
+
